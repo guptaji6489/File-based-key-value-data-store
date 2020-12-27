@@ -33,5 +33,3 @@ deriving maximum performance with respect to response times for accessing the da
 store.
 
 
-Go through the commands_to_run.py file and Some_Screenshots.pdf file that are attached here with in order to understand clearly how 
-the code works and how to perform operations in this. 
