@@ -22,5 +22,3 @@ the key will no longer be available for Read or Delete operations.
 unexpected ways or breaches any limits.
 
 ## The data store will also support the following non-functional requirements.
-
-
