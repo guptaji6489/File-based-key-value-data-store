@@ -5,11 +5,11 @@ import time
 
 dict1={}    #'dict1' is the dictionary in which we store data
 
-#for create operation 
-#use syntax "create(key_name,value,timeout_value)" timeout is optional
+#for createdata operation 
+#use syntax "createdata(key_name,value,timeout_value)" timeout is optional
 #you can continue by passing two arguments without timeout
 
-def create(key,value,timeout=0):
+def createdata(key,value,timeout=0):
     if key in dict1:
         print("Error: this key already exists! Try another one")     #error message1 if key already exists
     else:
@@ -29,9 +29,9 @@ def create(key,value,timeout=0):
 
 
 #for read operation
-#use syntax "read(key_name)"
+#use syntax "readdata(key_name)"
             
-def read(key):
+def readdata(key):
     if key not in dict1:
         print("Error: given key does not exist in database. Please enter a valid key or another Key") #Error message4
     else:
@@ -49,9 +49,9 @@ def read(key):
 
 
 #for delete operation
-#use syntax "delete(key_name)"
+#use syntax "deletedata(key_name)"
 
-def delete(key):
+def deletedata(key):
     if key not in dict1:
         print("Error: given key does not exist in database. Please enter a valid key or another Key") #Error message4
     else:
