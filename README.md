@@ -31,3 +31,7 @@ The data store must therefore be thread-safe.
 4. The client will bear as little memory costs as possible to use this data store, while
 deriving maximum performance with respect to response times for accessing the data
 store.
+
+
+Go through the commands_to_run.py file and Some_Screenshots.pdf file that are attached here with in order to understand clearly how 
+the code works and how to perform operations in this. 
